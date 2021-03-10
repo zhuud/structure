@@ -46,7 +46,7 @@ func LengthOfLongestSubstringV2(s string) int {
     return maxScroll
 }
 
-func lengthOfLongestSubstringV3(s string) int {
+func LengthOfLongestSubstringV3(s string) int {
     // 来记录一个字母如果后面出现重复时，应该调整到的新位置 i + 1 ，即字母后面的位置
     m := [128]int{0}
     longest := 0
